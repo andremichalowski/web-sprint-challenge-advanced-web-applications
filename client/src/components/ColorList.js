@@ -45,11 +45,15 @@ const ColorList = ({ colors, updateColors, getColors }) => {
   };
 
   return (
-    <div className="colors-wrap">
+    <div 
+    data-testid="bubble"
+    className="colors-wrap">
       <p>colors</p>
       <ul>
         {colors.map(color => (
-          <li key={color.color} onClick={() => editColor(color)}>
+          <li 
+          // data-testid="bubble"
+           key={color.color} onClick={() => editColor(color)}>
             <span>
               <span className="delete" onClick={e => {
                     e.stopPropagation();
