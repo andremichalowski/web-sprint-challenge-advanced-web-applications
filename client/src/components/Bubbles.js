@@ -13,7 +13,9 @@ const Bubbles = ({ colors }) => {
   }, [colors]);
 
   return (
-    <div className="bubble-wrap">
+    <div 
+    data-testid="bubble"
+    className="bubble-wrap">
       <p>bubbles</p>
       <Svg width={400} height={400}>
         <Pack
@@ -32,6 +34,7 @@ const Bubbles = ({ colors }) => {
                 if (i < colors.length) {
                   return (
                     <Circle
+                      // data-testid="bubble"
                       key={key}
                       cx={x}
                       cy={y}
