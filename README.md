@@ -83,10 +83,7 @@ C
 C
 - In `ColorList.js`, complete the `saveEdit` and `deleteColor` functions to make AJAX requests to the API to edit/delete data
       - [x] saveEdit
-      - [ ] deleteColor
-
-D
-- [ ] Watch and enjoy as your app responds to updates in the data. Check out `Bubbles.js` to see how this is built.
+      - [x] deleteColor
 
 #### API Documentation
 
