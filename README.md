@@ -82,7 +82,7 @@ C
 
 C
 - In `ColorList.js`, complete the `saveEdit` and `deleteColor` functions to make AJAX requests to the API to edit/delete data
-      - [ ] saveEdit
+      - [x] saveEdit
       - [ ] deleteColor
 
 D
